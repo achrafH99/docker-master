@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  worker:
+    image: worker
+    ports:
+      - "3000:3000"
+  worker1:
+    image: worker
+    ports:
+      - "3001:3000"
+  worker2:
+    image: worker
+    ports:
+      - "3002:3000"
+     
+  worker3:
+    image: worker
+    ports:
+      - "3003:3000"
+     
+      
+      
+      
+          

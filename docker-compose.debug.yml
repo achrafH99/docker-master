@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  worker:
+    image: worker
+    build:
+      context: worker
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+      - 3001:3001
+      - 3002:3002
+      - 3003:3003
+      - 9229:9229
+    command: ["node", "--inspect=0.0.0.0:9229", "main.js"]
