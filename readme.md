@@ -1,5 +1,5 @@
 # Evaluation: workers
-
+Pb au niveau de la version de node et sur les ports qui m'ont ralenti (sinon j'aurai fini :)
 Le rendu de l'exercice se fera via git. Pensez bien à commit à chaque fin d'exercice.
 Vous pouvez utiliser tous les outils que vous voulez pendant l'évalutions.
 Elle se fera surtout sur l'utilisation de docker et docker-compose.
